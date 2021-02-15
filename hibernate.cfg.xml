@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-configuration xmlns="urn:nhibernate-configuration-2.2">
+	<session-factory>
+		<property name="connection.connection_string">Server=192.168.68.100;Database=NHibernateDemo;User ID=SA;Password=1Secure*Password1;Persist Security Info=True;Integrated Security=false;</property>
+		<property name="connection.driver_class">NHibernate.Driver.SqlClientDriver</property>
+		<property name="dialect">NHibernate.Dialect.MsSql2008Dialect</property>
+		<mapping assembly="NHibernateDemo" />
+	</session-factory>
+</hibernate-configuration>
